@@ -36,7 +36,7 @@ switch (choice){
 
     case 2:
         printf("To be eligible for examinations, students must have a minimum attendance of 75%% and must have cleared all previous semester exams.\n");
-        break;
+        
         printf("Please enter your attendance percentage: ");
         int att;
         scanf ("%d", &att);
@@ -50,16 +50,13 @@ switch (choice){
         break;
     case 3:
         printf("To register a society, students must submit a proposal to the college administration and obtain approval.\n");
-        break;
         printf("Please enter the following details to sign up for the student activity society: \n");
         char name[50];
         printf("Enter your name: ");
         scanf("%s", name);
-        printf("Enter your college roll number: ");
-        int roll;
-        scanf("%d", &roll);
         printf("Thank you %s! for your intrest, we will surely get back to you, till then ROCK ON! \n", name);
-        printf ("Verify roll number as : %d \n", roll);
+        break;
+
     case 4:
         printf("For mentor contact and support, please reach out your respective department reception \n");
         printf ("Still got questions?, please write your query down the line:\n");
